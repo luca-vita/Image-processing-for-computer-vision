@@ -215,31 +215,6 @@ void hsv_to_rgb(Image& im)
   
   }
 
-// HW0 #9
-// Image& im: input image to be modified in-place
-void rgb_to_lch(Image& im)
-  {
-  assert(im.c==3 && "only works for 3-channels images");
-  
-  // TODO: Convert all pixels from RGB format to LCH format
-  
-  
-  NOT_IMPLEMENTED();
-  
-  }
-
-// HW0 #9
-// Image& im: input image to be modified in-place
-void lch_to_rgb(Image& im)
-  {
-  assert(im.c==3 && "only works for 3-channels images");
-  
-  // TODO: Convert all pixels from LCH format to RGB format
-  
-  NOT_IMPLEMENTED();
-  
-  }
-
 
 
 // Implementation of member functions
